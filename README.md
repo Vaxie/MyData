@@ -1,3 +1,4 @@
+<center>
 <img src="http://i.imgur.com/n4yXfFH.png">
 <h1>Updates:</h1>
 <br>
@@ -20,3 +21,4 @@ define( '_DBNAME', '' );
 <br>
 <h1>Language comments:</h1>
 <p>Danish</p>
+</center>
