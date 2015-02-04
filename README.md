@@ -5,7 +5,7 @@ A simpl system with PHP, MySQL using Bootstrap 3 for the form design.
 
 ### Creating the Database
 
-Create database "login" and create table "members" :
+Create database "MyData" and create table "bruger" :
 
 ```sql
 
