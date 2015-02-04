@@ -1,5 +1,5 @@
 <center>
-<img src="http://i.imgur.com/n4yXfFH.png">
+#Mydata
 <h1>Updates:</h1>
 <br>
 <h3>
