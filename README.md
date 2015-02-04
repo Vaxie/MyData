@@ -3,7 +3,6 @@
 <br>
 <h1>Version:</h1>
 <p>1.0.0.0</p>
-<br>
 <h1>Code language:</h1>
 <p>PHP 5, MySQLI</p>
 <br>
