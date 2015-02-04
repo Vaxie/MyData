@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0px;padding:0px;}
+body{margin:25px;font-family:Verdana, Geneva, sans-serif;}
+p{margin:2px;}
+
+
+.displayUsrName{border:1px solid silver; padding:2px;margin:1px; display:inline-block;min-width:100px;background-color:yellow;}
+.displaySearchResult{border:1px solid black; padding:2px;margin:1px; color:white; display:inline-block;min-width:100px;background-color:navy;}
+.result{padding:3px; margin:3px; border:1px solid silver;}
+
+.backGYellow{background-color:yellow;}
+.padding10{padding:10px;}
+.margin10{margin:10px;}
