@@ -2,14 +2,14 @@
 <h1>Updates:</h1>
 <br>
 <h3>
-<a id="user-content-setup-the-configphp-file-" class="anchor" href="#setup-the-configphp-file-" aria-hidden="true"><span class="octicon octicon-link"></span></a>Setup the <code>config.php</code> file :</h3>
+<a id="user-content-setup-the-configphp-file-" class="anchor" href="#setup-the-configphp-file-" aria-hidden="true"><span class="octicon octicon-link"></span></a>Setup the <code>core.php</code> file :</h3>
 
 <div class="highlight highlight-php">
 <pre>
-define( '_DBHOST', '' ); // Vi laver en define command der hedder _DBHOST - navnet er "lige meget" så længe det bliver kaldt længere nede i koden
-define( '_DBUSER', '' ); // Vi laver en define command der hedder _DBUSER - navnet er "lige meget" så længe det bliver kaldt længere nede i koden
-define( '_DBPASS', '' ); // Vi laver en define command der hedder _DBPASS - navnet er "lige meget" så længe det bliver kaldt længere nede i koden
-define( '_DBNAME', '' ); // Vi opretter forbindelse til databasen
+define( '_DBHOST', '' ); 
+define( '_DBUSER', '' ); 
+define( '_DBPASS', '' ); 
+define( '_DBNAME', '' );
 </pre>
 </div>
 <br>
