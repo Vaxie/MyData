@@ -1,25 +1,41 @@
-<center>
-<h1>MyData</h3>
-<hr>
-<h1>Updates:</h1>
-<br>
-<h3>
-<a id="user-content-setup-the-configphp-file-" class="anchor" href="#setup-the-configphp-file-" aria-hidden="true"><span class="octicon octicon-link"></span></a>Setup the <code>core.php</code> file :</h3>
+MyData
+=========
 
-<div class="highlight highlight-php">
-<pre>
-define( '_DBHOST', '' ); 
-define( '_DBUSER', '' ); 
-define( '_DBPASS', '' ); 
-define( '_DBNAME', '' );
-</pre>
-</div>
-<br>
-<h1>Version:</h1>
-<p>1.0.0.0</p>
-<h1>Code language:</h1>
-<p>PHP 5, MySQLI</p>
-<br>
-<h1>Language comments:</h1>
-<p>Danish</p>
-</center>
+A simpl system with PHP, MySQL using Bootstrap 3 for the form design.
+
+### Creating the Database
+
+Create database "login" and create table "members" :
+
+```sql
+
+```
+
+### Setup the `core.php` file :
+
+```php
+<?php
+if ( ! defined( 'SYSTEM_RUNNING' ) ) {
+	header( "location: " . $_SERVER['HTTP_HOST'] . "" ); // Header locate til ...
+	exit();
+}
+define( '_DBHOST', 'localhost' ); // 
+define( '_DBUSER', 'root' ); // 
+define( '_DBPASS', '' ); //
+define( '_DBNAME', '' ); //
+
+class MySystem { // Her laver vi en class med navnet MySystem
+	protected $DB; // Her
+
+	// I denne fuktion har vi defineret 4 varibalrere da vi skal bruge det til at kunne oprette forbindelse til databasen
+	function __construct( $dbHost = _DBHOST, $dbUser = _DBUSER, $dbPass = _DBPASS, $dbName = _DBNAME ) {
+		if ( ! $this->DB = new mysqli( $dbHost, $dbUser, $dbPass, $dbName ) ) {
+			return false; // Retuner flask hvis ikke datbase findes
+		}
+	}
+
+}
+
+?>
+```
+
